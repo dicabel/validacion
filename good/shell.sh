@@ -9,4 +9,4 @@
 ./stop.sh
 
 # fire up the container with shell (/bin/bash)
-docker run -it --rm --name chapter2 chapter2 /bin/bash
+docker run -it --rm --name good good /bin/bash
