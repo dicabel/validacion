@@ -1,6 +1,9 @@
 <?php
 ini_set( 'session.cookie_httponly', 1 );
-
+if ($_GET["PHPSESSID"]){
+	//Simulamos paso de sessión por GET 
+	session_id($_GET["PHPSESSID"]);
+}
 session_start();
 
 //En una aplicación real, los usuarios estarían almaenados en la base de datos
