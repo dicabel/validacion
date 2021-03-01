@@ -31,7 +31,7 @@ if ($ya_registrado){
 }else{
 ?>
 	
-	<form action='login-roles.php' method='post'>
+	<form action='login.php' method='post'>
 		Usuario: <input type='text' name = "usuario" id="usuario" value=""><br>
 		Contraseña: <input type='password' name = "password" id = "password" value=""><br>
 		<input type='submit' value='Enviar'>
