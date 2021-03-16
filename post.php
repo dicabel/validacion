@@ -15,7 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] == "GET") {
 </form>
 <?php
 }else
-	echo $_POST["textarea"] ?? "";
+	echo htmlspecialchars($_POST["textarea"]) ?? "";
 ?>
-</body>
 </html>
